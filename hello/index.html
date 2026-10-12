@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello</title>
+    <style>
+      body { margin: 0; padding: 32px; background: #12161f; color: #e8ecf4; font: 22px system-ui, sans-serif; }
+      button { margin: 8px 8px 0 0; padding: 12px 20px; border: 0; border-radius: 12px; background: #2b3550; color: inherit; font: inherit; }
+      pre { white-space: pre-wrap; color: #9fb0d0; font-size: 18px; }
+    </style>
+  </head>
+  <body>
+    <h1>Hello from a Halone app</h1>
+    <p id="status">Connecting…</p>
+    <button id="title">Rename my window</button>
+    <button id="paste">Read the clipboard (granted)</button>
+    <button id="windows">List all windows (not granted)</button>
+    <button id="ssh">Read github.com's SSH banner</button>
+    <pre id="out"></pre>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

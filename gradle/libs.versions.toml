@@ -1,0 +1,11 @@
+[versions]
+agp = "9.3.1"
+kotlin = "2.4.10"
+haloneSdk = "0.1.0"
+
+[libraries]
+halone-plugin-sdk = { group = "dev.halone", name = "plugin-sdk", version.ref = "haloneSdk" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,9 @@
+{
+  "id": "dev.halone.hello",
+  "name": "Hello",
+  "version": "0.1.0",
+  "description": "A first Halone app: its window, and a permission it has",
+  "icon": "icon.png",
+  "window": { "width": 800, "height": 500 },
+  "permissions": ["clipboard", "network.tcp"]
+}
